@@ -1,7 +1,6 @@
-import React from 'react';
 import LandingPage from './Components/LandingPage';
-import { Router, Route, Routes } from 'react-router';
-function App() {
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
+export default function App() {
   return (
     <div className="App">
       <Router>
@@ -12,5 +11,3 @@ function App() {
     </div>
   );
 }
-
-export default (App);
