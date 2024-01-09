@@ -1,13 +1,16 @@
-import './App.css';
-
+import React from 'react';
+import LandingPage from './Components/LandingPage';
+import { Router, Route, Routes } from 'react-router';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        New Year 2024
-      </header>
+      <Router>
+            <Routes>
+                <Route exact path="/" element={<LandingPage/>}/>
+            </Routes>
+      </Router>
     </div>
   );
 }
 
-export default App;
+export default (App);
