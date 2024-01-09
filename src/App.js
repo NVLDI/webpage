@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        New Year New Work
+        New Year 2024
       </header>
     </div>
   );
