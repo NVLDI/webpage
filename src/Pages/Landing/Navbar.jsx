@@ -74,7 +74,6 @@ function Navbar(props) {
               <Button key={item} sx={{ color: '#fff' }} onClick={() => handleButtonClick(item)}>
                {item}
               </Button>
-             
             ))}
           </Box>
         </Toolbar>
